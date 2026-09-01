@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "$1" = "-d" ]; then
-  #pkill -f "consolidar.sh"
+  pkill -f "consolidar.sh"
   echo "Eliminando entorno y finalizando procesos en background"
   rm -rf "$HOME/EPNro1"
   echo "Entorno eliminado con exito"
